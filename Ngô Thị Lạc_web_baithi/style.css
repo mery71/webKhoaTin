@@ -1,0 +1,302 @@
+
+<style>
+	*{
+	margin: 0px;
+padding: 0px;
+}
+
+#wraper{
+width: 1000px;
+margin: auto;
+height: auto;
+}
+#header{
+	width: 1000px;
+	height: 140px;
+
+}
+#menu{
+	width: 1000px;
+	height: 40px;
+}
+
+#bg{
+	width: 1000px;
+	height: 200px;
+
+}
+#content{
+	width: 800px;
+	height: 1800px; 
+	background-color:snow;
+	float: left;
+}
+
+.anh{
+	width: 240px;
+	height: 120px;
+}
+#table{
+	background-color:skyblue;
+	 margin:10px;
+}
+/* #Khoito{
+	height: 600px;
+	width: 800px;
+float: left; */
+
+
+#Khoi1{
+	background-color: white;
+	height: 350px;
+	width: 240px; 
+	font-family: serif;
+	text-align: center;
+	color: black;
+	float: left;
+	font-size: 22px;
+	border: 1px solid lightblue;
+	margin: 10px;
+}
+#Khoi2{
+	background-color: white;
+	height: 350px;
+	width: 240px; 
+	font-family: serif;
+	text-align: center;
+	color: black;
+	float: left;
+	font-size: 22px;
+	border: 1px solid lightblue;
+	margin: 10px;
+}
+#Khoi3{
+	background-color: white;
+	height: 350px;
+	width: 240px; 
+	font-family: serif;
+	text-align: center;
+	color: black;
+	float: left;
+	font-size: 22px;
+	border: 1px solid lightblue;
+	margin: 10px;
+}
+#Khoi4{
+	
+	height: 200px;
+	width: 220px; 
+	font-family: serif;
+	text-align: center;
+	color: black;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+}
+#Khoi4 img{
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+border: 4px solid lightblue;
+}
+#Khoi5{
+	
+	height: 200px;
+	width: 220px; 
+	font-family: serif;
+	text-align: center;
+	color: black;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+}
+#Khoi5 img{
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+border: 4px solid lightblue;
+}
+#Khoi6{
+	
+	height: 200px;
+	width: 220px; 
+	font-family: serif;
+	text-align: center;
+	color: black;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+}
+#Khoi6 img{
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+border: 4px solid lightblue;
+}
+#Khoi7{
+	width: 800px;
+	height: 30px;
+	background-color: skyblue;
+	margin-top: 700px;
+	text-align: center;
+	margin: : 0 auto;
+	padding-top: 1px;
+	font-family: serif;
+}
+#Khoi8 img{
+	width: 370px;
+	height: 280px;
+	padding: 30px;
+	float: left;
+}
+#Khoi9 img{
+	width: 370px;
+	height: 280px;
+	padding: 30px;
+	float:left;
+	margin-left: 50px;
+	
+}
+#Khoi10 img{
+	width: 370px;
+	height: 280px;
+	padding: 30px;
+	float:left;
+	
+}
+#Khoi11 img{
+	width: 370px;
+	height: 280px;
+	padding: 20px;
+	float:left;
+	margin-left: 50px;
+	
+}
+#Khoi12{
+	width: 800px;
+	height: 30px;
+	background-color:skyblue;
+	float: left;
+	text-align: center;
+	padding-top: 1px;
+	font-family: serif;
+	
+}
+#bg1 img{
+	width: 300px;
+	height: 93px;
+	padding-bottom: 5px;
+}
+#Khoitab{
+	width: 340px;
+	height: 237px;
+	margin-left: 250px;
+}
+
+
+#icon:hover{
+	-webkit-transform:scale(1.1); /*Webkit: Tăng kích cỡ ảnh lên 1.1 lần*/
+	moz-transform:scale(1.1); 
+	-o-transform:scale(1.1); 
+	box-shadow:0px 0px 30px gray; /*Đổ bóng bằng CSS3*/
+	-webkit-box-shadow:0px 0px 20px gray;
+	-moz-box-shadow:0px 0px 30px gray; 
+	opacity: 1; /*Độ mờ của hình ảnh*/
+}
+#TabView div.Tabs
+{
+height: 30px;
+overflow: hidden;
+background-color: teal;
+}
+#TabView div.Tabs a
+{
+float: left;
+display: block;
+width: 98px; 
+text-align: center;
+height: 30px; 
+padding-top: 3px;
+vertical-align: middle;
+border: 1px solid white; 
+/* border-bottom-width: 0; */
+text-decoration: none;
+font-family: serif;
+color: #000; 
+-webkit- border-top-left-radius: 10px;
+
+}
+#TabView div.Tabs a:hover/* , div.TabView div.Tabs a.Active */
+{
+background-color: #E6E6E6; 
+}
+#TabView div.Pages
+{
+clear: both;
+border: 1px solid #BDBDBD; 
+overflow: hidden;
+background-color: #E6E6E6; 
+}
+#TabView div.Pages div.Page
+{
+height: 100%;
+padding: 0px;
+overflow: hidden;
+}
+#TabView div.Pages div.Page div.Pad
+{ 
+padding: 3px 5px; 
+}
+
+
+#right{
+	width: 200px;
+	height: 1800px;
+	background-color:lightblue;
+	float: right;
+	}
+#Khoitt{
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	border: 3px solid azure;
+	font-family: serif;
+	float: left;
+}
+#Khoitt1{
+	width: 198px;
+	height: 30px;
+	background-color: darkblue;
+	font-family: serif;
+	color: white;
+}
+#nhom img{
+	width: 200px;
+	height: 120px;
+	float: left;
+
+}
+#tc{
+	width: 200px;
+	height: 120px;
+	float: left;
+	font-family: serif;
+	padding-top: 10px;
+
+}
+#K{
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin-top: 70px;
+}
+
+
+
+#footer{
+	width: 1000px;
+	height: 104px;
+	clear: both;
+}
+</style>
+
